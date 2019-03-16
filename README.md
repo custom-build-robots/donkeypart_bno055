@@ -1,3 +1,7 @@
+I am building since one year Donkey Cars and now it was time to add an IMU sensor and to develop my first part to get the sensor running.
+The picture below shows my Donkey Car without the senors.
+![Donkey Car](https://custom-build-robots.com/wp-content/uploads/2018/02/Donkey_Car_01.jpg)
+
 # Custom Donkey Car Part Bosch BNO055 IMU
 The BNO055 is the first in a new family of Application Specific Sensor Nodes (ASSN) implementing an intelligent 9-axis Absolute Orientation Sensor, which includes sensors and sensor fusion in a single package.
 ##  Donkey Car part IMUBNO055
