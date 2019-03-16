@@ -12,12 +12,15 @@ I had to add the imu part in the manage.py as follows to get the imu values reco
 
 The first change was to import the imubno055 part at the end of the "#import parts" section of the manage.py file
 ...
+
 # Ingmar Stapel added IMU bno055 201900311
 from donkeycar.parts.imubno055 import bno055
+
 ...
 
 The second change was to add the imubno055 part to get the selected sensor values I had choosen.
 ....
+
     V.add(cam, outputs=['cam/image_array'], threaded=True)
 
     # Ingmar Stapel 20190311
@@ -29,9 +32,10 @@ The second change was to add the imubno055 part to get the selected sensor value
     if use_joystick or cfg.USE_JOYSTICK_AS_DEFAULT:
 ...
 
-The third change was the JSON output definition. I added the following lines of code inside the manage.py file.
 
-.... 
+The third change was the JSON output definition. I added the following lines of code inside the manage.py file.
+...
+
     # add tub to save data
     #inputs = ['cam/image_array', 'user/angle', 'user/throttle', 'user/mode', 'timestamp']
     #types = ['image_array', 'float', 'float',  'str', 'str']
@@ -44,4 +48,5 @@ The third change was the JSON output definition. I added the following lines of 
     types = ['image_array', 'float', 'float',  'str', 'str', 'float', 'float', 'float', 'float', 
              'float', 'float', 'float', 'float', 'float', 'float', 'int', 'int', 'int', 'int']
  ...
+ 
  No everything works very well and the values of the BNO055 sensor where recorded in the JSON files.
