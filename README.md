@@ -1,5 +1,6 @@
 I am building since one year Donkey Cars and now it was time to add an IMU sensor and to develop my first part to get the sensor running.
 The picture below shows my Donkey Car without the senors.
+To read more about my Donkey Car project just visit my blog: https://custom-build-robots.com/category/donkey_car
 ![Donkey Car](https://custom-build-robots.com/wp-content/uploads/2018/02/Donkey_Car_01.jpg)
 
 # Custom Donkey Car Part Bosch BNO055 IMU
