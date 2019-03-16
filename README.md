@@ -13,8 +13,8 @@ I had to add the imu part in the manage.py as follows to get the imu values reco
 The first change was to import the imubno055 part at the end of the "#import parts" section of the manage.py file
 ...
 
-# Ingmar Stapel added IMU bno055 201900311
-from donkeycar.parts.imubno055 import bno055
+    # Ingmar Stapel added IMU bno055 201900311
+    from donkeycar.parts.imubno055 import bno055
 
 ...
 
