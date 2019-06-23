@@ -54,4 +54,4 @@ The third change was the JSON output definition. I added the following lines of 
              'float', 'float', 'float', 'float', 'float', 'float', 'int', 'int', 'int', 'int']
  ...
  
- No everything works very well and the values of the BNO055 sensor where recorded in the JSON files.
+ Now, the Donkey Car framework should work together with the BNO055 sensor. The values of the BNO055 sensor where recorded in the JSON files.
